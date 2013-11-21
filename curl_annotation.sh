@@ -7,6 +7,6 @@ id="1.2" start="18">is</token><token pos="Z" end="23" lemma="1" id="1.3" start="
 start="33">singer-songwriter</token><token pos="CC" end="54" lemma="and" id="1.6" start="51">and</token><token pos="NN" end="76" lemma="multi-instrumentalist" id="1.7" 
 start="55">multi-instrumentalist</token><token pos="Fp" end="77" lemma="." id="1.8" 
 start="76">.</token></tokens></sentence></sentences><nodes><node type="entity" class="other" displayName="american" id="E2"><mentions><mention sentenceId="1" id="E2.1" words="American"><mention_token id="1.4"> </mention_token> </mention> </mentions></node><node type="entity" class="person" displayName="bruce_springsteen" 
-id="E1"><mentions><mention sentenceId="1" id="E1.1" words="Bruce Springsteen"><mention_token id="1.1"> </mention_token> </mention></mentions> </node></nodes></item>' 'http://sandbox-xlike.isoco.com/annotation-en/'
+id="E1"><mentions><mention sentenceId="1" id="E1.1" words="Bruce Springsteen"><mention_token id="1.1"> </mention_token> </mention></mentions> </node></nodes></item>' 'http://km.aifb.kit.edu/services/annotation-en/'
 echo $i
 done
