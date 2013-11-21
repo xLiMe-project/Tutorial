@@ -26,10 +26,7 @@ import org.xml.sax.SAXException;
 public class Test {
 
 	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
-		System.setProperty("http.proxyHost", "eproxy.isoco.net");
-		System.setProperty("http.proxyPort", "3128");
-
-
+		
 		HttpURLConnection connection;			
 		DataOutputStream outStream;			
 
@@ -43,9 +40,7 @@ public class Test {
 		}					
 
 		URL url = new URL("http://sandbox-xlike.isoco.com/services/analysis_en/analyze");
-		//URL url = new URL("http://172.16.0.80:9090/services/analysis_en/analyze");
-		//URL url = new URL("http://xorrai.lsi.upc.edu:9090/axis2/services/analysis_en/analyze");				
-		//URL url = new URL("http://95.87.154.251:9090/services/analysis_en/analyze");
+	
 
 		String body = URLEncoder.encode(sentence, "UTF-8");
 		body = body.replace("+", "%20");	
