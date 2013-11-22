@@ -54,13 +54,13 @@ public class Test {
 		connection.setRequestProperty("Content-Type",
 				"application/x-www-form-urlencoded");
 
-		System.out.println("Enviando POST...");					
+		System.out.println("Sending POST...");					
 		outStream = new DataOutputStream(connection.getOutputStream());					
 		outStream.writeBytes(body);					
 		outStream.flush();				
 		outStream.close();					
 
-		System.out.println("Obteniendo respuesta del servidor...");
+		System.out.println("Receiving response...");
 		//Receiving response
 		if (connection.getResponseCode() != 200) { 
 			throw new IOException(connection.getResponseMessage()); 
